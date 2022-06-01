@@ -17,7 +17,7 @@ const profilelists = [
             id: 3,
             fName: "William",
             lName: "Hu",
-            imageURL: "",
+            imageURL: "../images/william.jpeg",
             description: "WOW WOW WOW"
         }
   ];
