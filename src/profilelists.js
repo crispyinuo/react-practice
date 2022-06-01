@@ -19,6 +19,13 @@ const profilelists = [
             lName: "Hu",
             imageURL: "../images/william.jpeg",
             description: "WOW WOW WOW"
+        },
+        {
+            id: 4,
+            fName: "Andrew",
+            lName: "Yeh",
+            imageURL: "https://ca.slack-edge.com/T03EE0SHLUU-U03EER0KXU3-6d10ce5a3bac-192",
+            description: "Motivated!"
         }
   ];
   
