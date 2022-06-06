@@ -26,6 +26,27 @@ const profilelists = [
             lName: "Yeh",
             imageURL: "https://ca.slack-edge.com/T03EE0SHLUU-U03EER0KXU3-6d10ce5a3bac-192",
             description: "Motivated!"
+        },
+        {
+            id: 5,
+            fName: "Jasmine",
+            lName: "Mizrahi",
+            imageURL: "https://ca.slack-edge.com/T03EE0SHLUU-U03EQANL2V8-bf19609c4dc7-512",
+            description: "I love Seafood~"
+        },
+        {
+            id: 6,
+            fName: "Yao",
+            lName: "Sun",
+            imageURL: "https://media-exp1.licdn.com/dms/image/C4D03AQEIxpeYAXQnTw/profile-displayphoto-shrink_400_400/0/1602112108403?e=1659571200&v=beta&t=mhECVdj2UAxwJ5zX1MQqeBM7wJOyN_tFZmLq1F2gQ60",
+            description: "A product designer"
+        },
+        {
+            id: 7,
+            fName: "Catherine",
+            lName: "Han",
+            imageURL: "https://ca.slack-edge.com/T03EE0SHLUU-U03EHU2JB44-5b228bf77255-192",
+            description: "Let's go marketing"
         }
   ];
   
