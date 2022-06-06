@@ -29,18 +29,20 @@ function NewProfile(props){
         console.log(event.target.value);
         setImage(event.target.value);
     }
-    
-    function handleClick(event) { 
-        const newprof = [fname, lname, description, image]   
-        event.preventDefault();
+
+    function setDefault(){
+        setfName("");
+        setlName("");
+        setDescription("");
+        setImage("");
     }
+
     
     return (props.trigger)?(<div className="popup">
         <div className="popup-inner">
         <div>
             <button className="close-btn" onClick={()=> props.setTrigger(false)}>&times;</button>
         </div>
-            <form onSubmit={handleClick}>
             <input
             onChange={handleChange1}
             type="text"
@@ -68,8 +70,7 @@ function NewProfile(props){
             placeholder="ImageURL"
             value={image}
             />
-            <button className="submit-btn" type="submit">Submit</button>
-        </form>
+            <button className="submit-btn" onClick={()=> {props.setTrigger(false); props.addProfile(fname,lname, description,image);{setDefault()};}}>Submit</button>
         </div>
     </div>):null;
 }
